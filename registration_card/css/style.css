@@ -1,0 +1,74 @@
+body{ 
+    display: flex;
+    height:95.4vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #31b7e6, #7b59b6);
+    padding: 10px;
+}
+.container{ 
+    max-width: 500px;
+    width: 100%;
+    background: #ffff;
+    padding: 25px 40px;
+    border-radius: 10px;
+}
+.container .title{ 
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container  .details{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 5%;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.details .inputBox{ 
+    width: calc(100%  / 2 - 20px);
+    margin: 2px 0px 12px 0px;
+    
+}
+
+.details .inputBox input{ 
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+.inputBoxGender span{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inputBoxGender label{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{ 
+    margin-top: 3%;
+    
+}
+.cancel{ 
+    cursor: pointer;
+    background: #f75454;
+    border: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    color: #ffff;
+}
+.submit{ 
+    cursor: pointer;
+    background: linear-gradient(135deg, #31b7e6, #7b59b6);
+    border: none;
+    height: 35px;
+    width: 80px;
+    border-radius: 5px;
+    color: #ffff;
+}
